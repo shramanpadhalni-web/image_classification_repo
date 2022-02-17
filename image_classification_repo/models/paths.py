@@ -9,7 +9,7 @@ Github: ignacioheredia
 import os.path
 from datetime import datetime
 
-from image_classification_repo.models import config
+from image_classification_repo.image_classification_repo.models import config
 
 
 homedir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

@@ -29,10 +29,10 @@ import numpy as np
 import tensorflow as tf
 import tensorflow.keras.backend as K
 
-from image_classification_repo.models.data_utils import load_data_splits, compute_meanRGB, compute_classweights, load_class_names, data_sequence, \
+from image_classification_repo.image_classification_repo.models.data_utils import load_data_splits, compute_meanRGB, compute_classweights, load_class_names, data_sequence, \
     json_friendly
-from image_classification_repo.models import paths, config, model_utils, utils
-from image_classification_repo.models.optimizers import customAdam
+from image_classification_repo.image_classification_repo.models import paths, config, model_utils, utils
+from image_classification_repo.image_classification_repo.models.optimizers import customAdam
 
 
 # Set Tensorflow verbosity logs

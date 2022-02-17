@@ -31,9 +31,9 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras import backend as K
 from webargs import fields
 
-from image_classification_repo.models import paths, utils, config, test_utils
-from image_classification_repo.models.data_utils import load_class_names, load_class_info, mount_nextcloud
-from image_classification_repo.models.train_runfile import train_fn
+from image_classification_repo.image_classification_repo.models import paths, utils, config, test_utils
+from image_classification_repo.image_classification_repo.models.data_utils import load_class_names, load_class_info, mount_nextcloud
+from image_classification_repo.image_classification_repo.models.train_runfile import train_fn
 
 
 # TODO: Move to proper marshalling for arguments

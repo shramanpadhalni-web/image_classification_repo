@@ -15,8 +15,8 @@ import numpy as np
 from tensorflow.keras import callbacks
 from tensorflow.keras import backend as K
 
-from image_classification_repo.models import paths
-from image_classification_repo.models.optimizers import customSGD, customAdam, customAdamW
+from image_classification_repo.image_classification_repo.models import paths
+from image_classification_repo.image_classification_repo.models.optimizers import customSGD, customAdam, customAdamW
 
 
 def create_dir_tree():

@@ -7,7 +7,7 @@ import json
 import argparse
 import pkg_resources
 # import project's config.py
-import image_classification_repo.config as cfg
+import image_classification_repo.image_classification_repo.config as cfg
 from aiohttp.web import HTTPBadRequest
 
 from functools import wraps
